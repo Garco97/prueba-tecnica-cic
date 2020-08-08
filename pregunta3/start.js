@@ -10,10 +10,10 @@ function combinaciones(palabra){
             let word = "";
             for (let i = 0; i < size; i++) {
                 word += palabra[startIndex + i]
-                    if(startIndex + i == palabra.length){
-                        word = "";
-                        break;
-                    }
+                if(startIndex + i == palabra.length){
+                    word = "";
+                    break;
+                }
             }
             if(word){
                 resultado.push(word)
