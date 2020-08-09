@@ -54,13 +54,11 @@ function ask(){
                     ask()
                 }else{
                     readline.close();
-
                     let dias = Fecha.diasHastaNavidad(num1,num2); 
                     console.log(dias.toString())
                 }
             });
         }
     });
-
 }
 ask()
