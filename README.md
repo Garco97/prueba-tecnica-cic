@@ -3,7 +3,7 @@ Para implementar las 3 primeras preguntas, he utilizado Node.js, con lo que para
 Para ejecutar la pregunta 4 sería con ```npm start``` o ```yarn start```.
 
 ## Pregunta 1
-El programa te pide el mes y el día. No tiene en cuenta año bisiesto.
+El programa te pide el mes y el día. No tiene en cuenta año bisiesto, por lo que Febrero tiene 28 días.
 
 ## Pregunta 2
 El programa te pedirá dos números, a no ser que introduzcas otra cosa que no reconozca como número. Entonces realizará las 4 operaciones básicas.
